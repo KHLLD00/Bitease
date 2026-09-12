@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu &amp; Order — BiteEase</title>
+<meta name="description" content="Browse the full BiteEase menu and order for pickup or delivery in Lokoja." />
+<link rel="icon" href="assets/logo-circle.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/logo-circle.png" alt="BiteEase logo" />
+      <span class="nav-brand-text">Bite Ease<span>Bakery · Pastry · Café</span></span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">&#9776;</button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="order.html" aria-current="page">Menu &amp; Order</a>
+      <a href="about.html">Our Story</a>
+      <a href="contact.html">Locations &amp; Hours</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="section-kicker">Menu &amp; Order</p>
+    <h1>Pick your plate.</h1>
+    <p>Everything below is available for pickup or delivery. Add what you like, then send your order to us on WhatsApp — no payment on this site.</p>
+  </div>
+</section>
+
+<div class="order-toolbar">
+  <div class="container order-toolbar-inner">
+    <div class="search-box">
+      <label for="menu-search" class="visually-hidden">Search the menu</label>
+      <input type="search" id="menu-search" placeholder="Search dishes — “pizza”, “muffin”, “smoothie”..." />
+    </div>
+    <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Menu categories"></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="menu-results" id="menu-results">
+    <p style="text-align:center; color:var(--ink-700); padding: 60px 0;">Loading menu…</p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo-circle.png" alt="BiteEase logo" />
+          <span>Bite Ease</span>
+        </div>
+        <p>Bakery, pastry &amp; café in Lokoja, Nigeria. Delight in every nibble.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="order.html">Menu &amp; Order</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Locations &amp; Hours</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <p>Opp. Civil Defense HQ, before Zone 8 Roundabout, Lokoja</p>
+        <a href="tel:+2348033536667">+234 803 353 6667</a>
+        <a href="mailto:info@biteease.ng">info@biteease.ng</a>
+        <a href="https://instagram.com/biteease.ng" target="_blank" rel="noopener">@biteease.ng</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> BiteEase. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/cart.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

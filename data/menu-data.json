@@ -1,0 +1,61 @@
+{
+  "items": [
+    { "name": "Shakshuka with Focaccia", "category": "Breakfast", "price": 6500, "description": "Baked eggs in spiced tomato sauce, served with warm focaccia." },
+    { "name": "French Toast", "category": "Breakfast", "price": 6500, "description": "Plain omelette, sausage and baked beans on the side." },
+    { "name": "Waffle", "category": "Breakfast", "price": 6000, "description": "Plain omelette, sausage and honey on the side." },
+    { "name": "Sandwich", "category": "Breakfast", "price": 5500, "description": "" },
+    { "name": "Chicken Salad", "category": "Breakfast", "price": 5000, "description": "" },
+    { "name": "Coffee or Tea", "category": "Breakfast", "price": 1000, "description": "Comes with any breakfast option." },
+
+    { "name": "Margherita Double Cheese (Large)", "category": "Pizza", "price": 15000, "description": "" },
+    { "name": "Margherita Double Cheese (Medium)", "category": "Pizza", "price": 9000, "description": "" },
+    { "name": "Chicken Barbecue Pizza (Large)", "category": "Pizza", "price": 13500, "description": "" },
+    { "name": "Chicken Barbecue Pizza (Medium)", "category": "Pizza", "price": 8500, "description": "" },
+    { "name": "Pepperoni Pizza (Large)", "category": "Pizza", "price": 13000, "description": "" },
+    { "name": "Pepperoni Pizza (Medium)", "category": "Pizza", "price": 8500, "description": "" },
+
+    { "name": "Chicken Shawarma - Double Sausage", "category": "Shawarma", "price": 4000, "description": "" },
+    { "name": "Chicken Shawarma - Single Sausage", "category": "Shawarma", "price": 3500, "description": "" },
+
+    { "name": "Chicken Cheese Burger (Double Layer)", "category": "Burgers", "price": 7500, "description": "" },
+    { "name": "Chicken Cheese Burger (Single Layer)", "category": "Burgers", "price": 5000, "description": "" },
+    { "name": "Beef Cheese Burger (Double Layer)", "category": "Burgers", "price": 6500, "description": "" },
+    { "name": "Beef Cheese Burger (Single Layer)", "category": "Burgers", "price": 4000, "description": "" },
+
+    { "name": "White Bread (Jumbo)", "category": "Bread", "price": 2000, "description": "" },
+    { "name": "White Bread (Family)", "category": "Bread", "price": 1500, "description": "" },
+    { "name": "Butter Bread", "category": "Bread", "price": 2000, "description": "" },
+    { "name": "Coconut Bread", "category": "Bread", "price": 2000, "description": "" },
+    { "name": "Chelsea Bread", "category": "Bread", "price": 2000, "description": "" },
+    { "name": "Milk Bread", "category": "Bread", "price": 2000, "description": "" },
+    { "name": "Wheat Bread", "category": "Bread", "price": 2000, "description": "" },
+
+    { "name": "Lemon Blueberry Muffin", "category": "Muffins", "price": 2000, "description": "" },
+    { "name": "Ginger & Date Muffin", "category": "Muffins", "price": 1500, "description": "" },
+    { "name": "Morning Glory Muffin", "category": "Muffins", "price": 1500, "description": "" },
+
+    { "name": "Chicken Pie", "category": "Pies", "price": 1800, "description": "" },
+    { "name": "Beef Pie", "category": "Pies", "price": 1500, "description": "" },
+
+    { "name": "Chicken and Chips", "category": "Sides & Snacks", "price": 5500, "description": "" },
+    { "name": "Chicken Jacket", "category": "Sides & Snacks", "price": 2000, "description": "" },
+    { "name": "Cream Butter", "category": "Sides & Snacks", "price": 1500, "description": "" },
+    { "name": "Fish Roll", "category": "Sides & Snacks", "price": 1000, "description": "" },
+    { "name": "Beef Roll", "category": "Sides & Snacks", "price": 1000, "description": "" },
+
+    { "name": "Diet Mix Smoothie", "category": "Drinks", "price": 4000, "description": "" },
+    { "name": "Fruit & Nut Fusion Smoothie", "category": "Drinks", "price": 4000, "description": "" },
+    { "name": "Summer Splash Smoothie", "category": "Drinks", "price": 4000, "description": "" },
+    { "name": "Tropical Twist Smoothie", "category": "Drinks", "price": 4000, "description": "" },
+    { "name": "Detox Delight Smoothie", "category": "Drinks", "price": 4000, "description": "" },
+    { "name": "Strawberry Cooler Mocktail", "category": "Drinks", "price": 3500, "description": "" },
+    { "name": "Creamy Lemonade Mocktail", "category": "Drinks", "price": 3500, "description": "" },
+    { "name": "Ice Cream (Big Cup)", "category": "Drinks", "price": 4000, "description": "" },
+    { "name": "Ice Cream (Medium)", "category": "Drinks", "price": 3000, "description": "" },
+    { "name": "Ice Cream (Cone)", "category": "Drinks", "price": 2000, "description": "" },
+    { "name": "Citrus Mix", "category": "Drinks", "price": 3000, "description": "" },
+    { "name": "Yoghurt", "category": "Drinks", "price": 3000, "description": "" },
+    { "name": "Soft Drink", "category": "Drinks", "price": 1000, "description": "" },
+    { "name": "Water", "category": "Drinks", "price": 500, "description": "" }
+  ]
+}
