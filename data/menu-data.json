@@ -1,61 +1,1704 @@
 {
+  "meta": {
+    "brand": "Pasta Nirvana",
+    "year": 2026,
+    "phone": "0906 198 6602",
+    "instagram": "https://instagram.com/pastanirvana",
+    "currency": "NGN"
+  },
   "items": [
-    { "name": "Shakshuka with Focaccia", "category": "Breakfast", "price": 6500, "description": "Baked eggs in spiced tomato sauce, served with warm focaccia." },
-    { "name": "French Toast", "category": "Breakfast", "price": 6500, "description": "Plain omelette, sausage and baked beans on the side." },
-    { "name": "Waffle", "category": "Breakfast", "price": 6000, "description": "Plain omelette, sausage and honey on the side." },
-    { "name": "Sandwich", "category": "Breakfast", "price": 5500, "description": "" },
-    { "name": "Chicken Salad", "category": "Breakfast", "price": 5000, "description": "" },
-    { "name": "Coffee or Tea", "category": "Breakfast", "price": 1000, "description": "Comes with any breakfast option." },
-
-    { "name": "Margherita Double Cheese (Large)", "category": "Pizza", "price": 15000, "description": "" },
-    { "name": "Margherita Double Cheese (Medium)", "category": "Pizza", "price": 9000, "description": "" },
-    { "name": "Chicken Barbecue Pizza (Large)", "category": "Pizza", "price": 13500, "description": "" },
-    { "name": "Chicken Barbecue Pizza (Medium)", "category": "Pizza", "price": 8500, "description": "" },
-    { "name": "Pepperoni Pizza (Large)", "category": "Pizza", "price": 13000, "description": "" },
-    { "name": "Pepperoni Pizza (Medium)", "category": "Pizza", "price": 8500, "description": "" },
-
-    { "name": "Chicken Shawarma - Double Sausage", "category": "Shawarma", "price": 4000, "description": "" },
-    { "name": "Chicken Shawarma - Single Sausage", "category": "Shawarma", "price": 3500, "description": "" },
-
-    { "name": "Chicken Cheese Burger (Double Layer)", "category": "Burgers", "price": 7500, "description": "" },
-    { "name": "Chicken Cheese Burger (Single Layer)", "category": "Burgers", "price": 5000, "description": "" },
-    { "name": "Beef Cheese Burger (Double Layer)", "category": "Burgers", "price": 6500, "description": "" },
-    { "name": "Beef Cheese Burger (Single Layer)", "category": "Burgers", "price": 4000, "description": "" },
-
-    { "name": "White Bread (Jumbo)", "category": "Bread", "price": 2000, "description": "" },
-    { "name": "White Bread (Family)", "category": "Bread", "price": 1500, "description": "" },
-    { "name": "Butter Bread", "category": "Bread", "price": 2000, "description": "" },
-    { "name": "Coconut Bread", "category": "Bread", "price": 2000, "description": "" },
-    { "name": "Chelsea Bread", "category": "Bread", "price": 2000, "description": "" },
-    { "name": "Milk Bread", "category": "Bread", "price": 2000, "description": "" },
-    { "name": "Wheat Bread", "category": "Bread", "price": 2000, "description": "" },
-
-    { "name": "Lemon Blueberry Muffin", "category": "Muffins", "price": 2000, "description": "" },
-    { "name": "Ginger & Date Muffin", "category": "Muffins", "price": 1500, "description": "" },
-    { "name": "Morning Glory Muffin", "category": "Muffins", "price": 1500, "description": "" },
-
-    { "name": "Chicken Pie", "category": "Pies", "price": 1800, "description": "" },
-    { "name": "Beef Pie", "category": "Pies", "price": 1500, "description": "" },
-
-    { "name": "Chicken and Chips", "category": "Sides & Snacks", "price": 5500, "description": "" },
-    { "name": "Chicken Jacket", "category": "Sides & Snacks", "price": 2000, "description": "" },
-    { "name": "Cream Butter", "category": "Sides & Snacks", "price": 1500, "description": "" },
-    { "name": "Fish Roll", "category": "Sides & Snacks", "price": 1000, "description": "" },
-    { "name": "Beef Roll", "category": "Sides & Snacks", "price": 1000, "description": "" },
-
-    { "name": "Diet Mix Smoothie", "category": "Drinks", "price": 4000, "description": "" },
-    { "name": "Fruit & Nut Fusion Smoothie", "category": "Drinks", "price": 4000, "description": "" },
-    { "name": "Summer Splash Smoothie", "category": "Drinks", "price": 4000, "description": "" },
-    { "name": "Tropical Twist Smoothie", "category": "Drinks", "price": 4000, "description": "" },
-    { "name": "Detox Delight Smoothie", "category": "Drinks", "price": 4000, "description": "" },
-    { "name": "Strawberry Cooler Mocktail", "category": "Drinks", "price": 3500, "description": "" },
-    { "name": "Creamy Lemonade Mocktail", "category": "Drinks", "price": 3500, "description": "" },
-    { "name": "Ice Cream (Big Cup)", "category": "Drinks", "price": 4000, "description": "" },
-    { "name": "Ice Cream (Medium)", "category": "Drinks", "price": 3000, "description": "" },
-    { "name": "Ice Cream (Cone)", "category": "Drinks", "price": 2000, "description": "" },
-    { "name": "Citrus Mix", "category": "Drinks", "price": 3000, "description": "" },
-    { "name": "Yoghurt", "category": "Drinks", "price": 3000, "description": "" },
-    { "name": "Soft Drink", "category": "Drinks", "price": 1000, "description": "" },
-    { "name": "Water", "category": "Drinks", "price": 500, "description": "" }
+    {
+      "id": "mac-and-cheese-with-crispy-chicken-wings-nirvana-breakfast",
+      "name": "Mac & Cheese with Crispy Chicken Wings",
+      "category": "Nirvana Breakfast",
+      "subCategory": null,
+      "description": "Cheesy macaroni served with crispy seasoned chicken wings",
+      "price": 16500
+    },
+    {
+      "id": "asun-x-turkey-combo-nirvana-breakfast",
+      "name": "Asun x Turkey Combo",
+      "category": "Nirvana Breakfast",
+      "subCategory": null,
+      "description": "Spicy peppered goat meat chunks (Asun) paired with turkey",
+      "price": 14000
+    },
+    {
+      "id": "shrimps-veggies-sauce-x-boiled-yam-or-plantain-nirvana-breakfast",
+      "name": "Shrimps Veggies Sauce x Boiled Yam or Plantain",
+      "category": "Nirvana Breakfast",
+      "subCategory": null,
+      "description": "Sautéed shrimp vegetable sauce served with choice of boiled yam or plantain",
+      "price": 15500
+    },
+    {
+      "id": "bleached-oil-egg-sauce-x-fried-plantain-and-yam-nirvana-breakfast",
+      "name": "Bleached Oil Egg Sauce x Fried Plantain & Yam",
+      "category": "Nirvana Breakfast",
+      "subCategory": null,
+      "description": "Traditional bleached palm oil egg sauce served with fried ripe plantain and fried yam",
+      "price": 13500
+    },
+    {
+      "id": "premium-egg-sauce-x-boiled-yam-nirvana-breakfast",
+      "name": "Premium Egg Sauce x Boiled Yam",
+      "category": "Nirvana Breakfast",
+      "subCategory": null,
+      "description": "Minced meat and sausage egg sauce served with boiled yam",
+      "price": 13500
+    },
+    {
+      "id": "yamarita-golden-yam-x-fish-sauce-nirvana-breakfast",
+      "name": "Yamarita (Golden Yam) x Fish Sauce",
+      "category": "Nirvana Breakfast",
+      "subCategory": null,
+      "description": "Egg-coated fried golden yam wedges served with savoury fish sauce",
+      "price": 13000
+    },
+    {
+      "id": "grilled-plantain-bole-style-x-egg-sauce-x-croaker-nirvana-breakfast",
+      "name": "Grilled Plantain (Bole Style) x Egg Sauce x Croaker",
+      "category": "Nirvana Breakfast",
+      "subCategory": null,
+      "description": "Roasted plantain served with egg sauce and peppered croaker fish",
+      "price": 13000
+    },
+    {
+      "id": "all-in-one-noodles-noodles",
+      "name": "All In One Noodles",
+      "category": "Noodles",
+      "subCategory": null,
+      "description": "Turkey, prawns, shrimps, diced chicken, diced beef, egg & sausage",
+      "price": 24000
+    },
+    {
+      "id": "asun-noodles-noodles",
+      "name": "Asun Noodles",
+      "category": "Noodles",
+      "subCategory": null,
+      "description": "Spicy stir-fry noodles with Asun, sausages & boiled egg",
+      "price": 13000
+    },
+    {
+      "id": "nirvana-special-noodles-noodles",
+      "name": "Nirvana Special Noodles",
+      "category": "Noodles",
+      "subCategory": null,
+      "description": "Noodles loaded with turkey, sausages & fried egg",
+      "price": 15000
+    },
+    {
+      "id": "cajun-seafood-noodles-noodles",
+      "name": "Cajun Seafood Noodles",
+      "category": "Noodles",
+      "subCategory": null,
+      "description": "Cajun-seasoned noodles with shrimps, sausage, boiled eggs & calamari",
+      "price": 15000
+    },
+    {
+      "id": "seafood-vermicelli-noodles",
+      "name": "Seafood Vermicelli",
+      "category": "Noodles",
+      "subCategory": null,
+      "description": "Stir-fry vermicelli rice pasta loaded with prawns, shrimps and crab",
+      "price": 21500
+    },
+    {
+      "id": "singapore-noodles-noodles",
+      "name": "Singapore Noodles",
+      "category": "Noodles",
+      "subCategory": null,
+      "description": "Rice noodles stir-fried with shrimps, chicken and tender beef chunks",
+      "price": 14500
+    },
+    {
+      "id": "oriental-singapore-noodles-noodles",
+      "name": "Oriental Singapore Noodles",
+      "category": "Noodles",
+      "subCategory": null,
+      "description": "Beef stir-fry Singapore noodles topped with 4 prawns and 8 snails",
+      "price": 28500
+    },
+    {
+      "id": "nirvana-platter-sharing-platters-and-trays",
+      "name": "Nirvana Platter",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Fried yam, fried plantain, peppered goat meat, peppered gizzard, peppered snail & prawns sauce",
+      "price": 31000
+    },
+    {
+      "id": "breakfast-platter-sharing-platters-and-trays",
+      "name": "Breakfast Platter",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Scrambled egg, turkey, fried yam, fried plantain, diced sausage & dipping sauce",
+      "price": 24500
+    },
+    {
+      "id": "nirvana-special-tray-sharing-platters-and-trays",
+      "name": "Nirvana Special Tray",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Nirvana special rice or pasta, turkey, Asun, shrimps & plantain",
+      "price": 54000
+    },
+    {
+      "id": "sausage-veggies-platter-sharing-platters-and-trays",
+      "name": "Sausage Veggies Platter",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Stir-fry pasta, plantain, diced sausages, mini turkey & Asun",
+      "price": 47000
+    },
+    {
+      "id": "village-platter-sharing-platters-and-trays",
+      "name": "Village Platter",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Village rice, Village pasta, peppered Titus fish, boiled eggs, peppered chicken, snail, peppered pomo & intestine",
+      "price": 49000
+    },
+    {
+      "id": "jollof-platter-sharing-platters-and-trays",
+      "name": "Jollof Platter",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Jollof rice, special fried rice, mini turkey, chicken, Asun, snail & plantain",
+      "price": 59000
+    },
+    {
+      "id": "heavy-loaded-stew-tray-sharing-platters-and-trays",
+      "name": "Heavy Loaded Stew Tray",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Spicy rich stew loaded with 4 turkeys, 4 boiled eggs, 4 chickens, 4 big pomo & 4 Titus fishes",
+      "price": 54500
+    },
+    {
+      "id": "odogwu-seafood-platter-sharing-platters-and-trays",
+      "name": "Odogwu Seafood Platter",
+      "category": "Sharing Platters & Trays",
+      "subCategory": null,
+      "description": "Asgedo pasta mini, Dorothy special mini, Jollof fusilli, prawns, snails, crabs, turkey, shrimps & calamari",
+      "price": 77000
+    },
+    {
+      "id": "jollof-linguine-pasta-1-linguine-pasta",
+      "name": "Jollof Linguine Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "1. Linguine Pasta",
+      "description": "Spicy jollof linguine & plantain with choice of turkey, Asun, or chicken breast",
+      "sizes": {
+        "regular": 18000,
+        "jumbo": 36000
+      }
+    },
+    {
+      "id": "seafood-creamy-linguine-1-linguine-pasta",
+      "name": "Seafood Creamy Linguine",
+      "category": "Pasta Dishes",
+      "subCategory": "1. Linguine Pasta",
+      "description": "Linguine tossed in creamy chef mix sauce with seafood variety",
+      "sizes": {
+        "regular": 20500,
+        "jumbo": 41000
+      }
+    },
+    {
+      "id": "linguine-stir-fry-1-linguine-pasta",
+      "name": "Linguine Stir Fry",
+      "category": "Pasta Dishes",
+      "subCategory": "1. Linguine Pasta",
+      "description": "Stir-fry linguine tossed with Asun, diced chicken, shrimp and sausage",
+      "sizes": {
+        "regular": 18000,
+        "jumbo": 36000
+      }
+    },
+    {
+      "id": "shrimp-and-chicken-creamy-pasta-1-linguine-pasta",
+      "name": "Shrimp & Chicken Creamy Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "1. Linguine Pasta",
+      "description": "Rich creamy cheesy sauce with grilled diced chicken & shrimp (penne or linguine)",
+      "sizes": {
+        "regular": 17000,
+        "jumbo": 34000
+      }
+    },
+    {
+      "id": "seafood-assorted-pasta-1-linguine-pasta",
+      "name": "Seafood Assorted Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "1. Linguine Pasta",
+      "description": "Stir-fry linguine with sautéed seafood mix (crab, prawns, shrimps, calamari)",
+      "sizes": {
+        "regular": 21000,
+        "jumbo": 42000
+      }
+    },
+    {
+      "id": "spicy-penne-pasta-2-penne-and-fusilli-pasta",
+      "name": "Spicy Penne Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "2. Penne & Fusilli Pasta",
+      "description": "Rich Jollof penne pasta loaded with prawns and turkey",
+      "sizes": {
+        "regular": 19500,
+        "jumbo": 39000
+      }
+    },
+    {
+      "id": "creamy-alfredo-penne-2-penne-and-fusilli-pasta",
+      "name": "Creamy Alfredo Penne",
+      "category": "Pasta Dishes",
+      "subCategory": "2. Penne & Fusilli Pasta",
+      "description": "Penne tossed in rich cheesy shredded chicken & sausage Alfredo sauce",
+      "sizes": {
+        "regular": 18000,
+        "jumbo": 36000
+      }
+    },
+    {
+      "id": "shrimps-penne-pasta-2-penne-and-fusilli-pasta",
+      "name": "Shrimps Penne Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "2. Penne & Fusilli Pasta",
+      "description": "Stir-fry penne pasta topped with spicy seasoned shrimps",
+      "sizes": {
+        "regular": 15500,
+        "jumbo": 31000
+      }
+    },
+    {
+      "id": "asun-penne-pasta-2-penne-and-fusilli-pasta",
+      "name": "Asun Penne Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "2. Penne & Fusilli Pasta",
+      "description": "Penne pasta tossed in juicy loaded Asun pepper sauce",
+      "sizes": {
+        "regular": 17000,
+        "jumbo": 34000
+      }
+    },
+    {
+      "id": "prawns-penne-pasta-2-penne-and-fusilli-pasta",
+      "name": "Prawns Penne Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "2. Penne & Fusilli Pasta",
+      "description": "Shrimp-loaded Jollof penne pasta topped with 6 jumbo prawns",
+      "sizes": {
+        "regular": 28000,
+        "jumbo": 56000
+      }
+    },
+    {
+      "id": "beef-jollof-fusilli-pasta-2-penne-and-fusilli-pasta",
+      "name": "Beef Jollof Fusilli Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "2. Penne & Fusilli Pasta",
+      "description": "Fusilli pasta tossed in fried beef tomato sauce",
+      "sizes": {
+        "regular": 13500,
+        "jumbo": 27000
+      }
+    },
+    {
+      "id": "asun-jollof-fusilli-2-penne-and-fusilli-pasta",
+      "name": "Asun Jollof Fusilli",
+      "category": "Pasta Dishes",
+      "subCategory": "2. Penne & Fusilli Pasta",
+      "description": "Fusilli pasta tossed in juicy loaded spicy Asun sauce",
+      "sizes": {
+        "regular": 17000,
+        "jumbo": 34000
+      }
+    },
+    {
+      "id": "spicy-chicken-macaroni-3-macaroni-pasta",
+      "name": "Spicy Chicken Macaroni",
+      "category": "Pasta Dishes",
+      "subCategory": "3. Macaroni Pasta",
+      "description": "Stir-fry macaroni mixed with sausages & chicken, topped with drumsticks",
+      "sizes": {
+        "regular": 13500,
+        "jumbo": 27000
+      }
+    },
+    {
+      "id": "macaroni-delight-3-macaroni-pasta",
+      "name": "Macaroni Delight",
+      "category": "Pasta Dishes",
+      "subCategory": "3. Macaroni Pasta",
+      "description": "Stir-fry macaroni topped with 4 snails, 2 prawns and 4 gizzards",
+      "sizes": {
+        "regular": 21000,
+        "jumbo": 42000
+      }
+    },
+    {
+      "id": "native-macaroni-3-macaroni-pasta",
+      "name": "Native Macaroni",
+      "category": "Pasta Dishes",
+      "subCategory": "3. Macaroni Pasta",
+      "description": "Juicy macaroni simmered with traditional native seasoning mix and beef",
+      "sizes": {
+        "regular": 13500,
+        "jumbo": 27000
+      }
+    },
+    {
+      "id": "spaghetti-bolognese-4-spaghetti-pasta",
+      "name": "Spaghetti Bolognese",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Spaghetti or penne tossed with seasoned minced meat in rich tomato sauce",
+      "sizes": {
+        "regular": 12000,
+        "jumbo": 24000
+      }
+    },
+    {
+      "id": "sausage-veggies-pasta-4-spaghetti-pasta",
+      "name": "Sausage Veggies Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Sausage spaghetti served with mini turkey and fried plantain",
+      "sizes": {
+        "regular": 13000,
+        "jumbo": 26000
+      }
+    },
+    {
+      "id": "meatballs-pasta-4-spaghetti-pasta",
+      "name": "Meatballs Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Spaghetti tossed with spicy seasoned savoury meatballs",
+      "sizes": {
+        "regular": 13500,
+        "jumbo": 27000
+      }
+    },
+    {
+      "id": "native-pasta-4-spaghetti-pasta",
+      "name": "Native Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Juicy spaghetti prepared with local palm oil blend and 3 beef chunks",
+      "sizes": {
+        "regular": 13500,
+        "jumbo": 27000
+      }
+    },
+    {
+      "id": "asgedo-pasta-4-spaghetti-pasta",
+      "name": "Asgedo Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Stir-fry spaghetti tossed with scrambled egg, Asun & ripe fried plantain",
+      "sizes": {
+        "regular": 14500,
+        "jumbo": 29000
+      }
+    },
+    {
+      "id": "village-pasta-4-spaghetti-pasta",
+      "name": "Village Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Steamed palm oil sauce mix with beef chunks & 3 peppered fried Titus fishes",
+      "sizes": {
+        "regular": 14500,
+        "jumbo": 29000
+      }
+    },
+    {
+      "id": "stir-fry-pasta-4-spaghetti-pasta",
+      "name": "Stir Fry Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Stir-fry spaghetti with sautéed shrimps, sausage & choice of beef, chicken, or Asun",
+      "sizes": {
+        "regular": 15500,
+        "jumbo": 31000
+      }
+    },
+    {
+      "id": "jollof-spaghetti-4-spaghetti-pasta",
+      "name": "Jollof Spaghetti",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Spicy jollof spaghetti served with plantain and choice of Asun or chicken lap",
+      "sizes": {
+        "regular": 16000,
+        "jumbo": 32000
+      }
+    },
+    {
+      "id": "meaty-ragu-pasta-4-spaghetti-pasta",
+      "name": "Meaty Ragu Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Stir-fry pasta topped with minced meat, diced beef, diced chicken and Asun",
+      "sizes": {
+        "regular": 16500,
+        "jumbo": 33000
+      }
+    },
+    {
+      "id": "mixed-stir-fry-4-spaghetti-pasta",
+      "name": "Mixed Stir Fry",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Stir-fry spaghetti made with diced chicken, diced beef, shrimps and sausage",
+      "sizes": {
+        "regular": 17000,
+        "jumbo": 34000
+      }
+    },
+    {
+      "id": "nirvana-special-pasta-4-spaghetti-pasta",
+      "name": "Nirvana Special Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Spaghetti with minced meat, boiled egg, sausage, shrimps, plantain & turkey",
+      "sizes": {
+        "regular": 17500,
+        "jumbo": 35000
+      }
+    },
+    {
+      "id": "sausage-veggies-combo-4-spaghetti-pasta",
+      "name": "Sausage Veggies Combo",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Stir-fry pasta with sausages, gizzard, snail, Asun, turkey & plantain",
+      "sizes": {
+        "regular": 19500,
+        "jumbo": 39000
+      }
+    },
+    {
+      "id": "steak-shrimp-jambalaya-pasta-4-spaghetti-pasta",
+      "name": "Steak Shrimp Jambalaya Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Jollof Cajun-spiced pasta topped with juicy steak and spicy shrimp",
+      "sizes": {
+        "regular": 20000,
+        "jumbo": 40000
+      }
+    },
+    {
+      "id": "all-in-one-pasta-4-spaghetti-pasta",
+      "name": "All In One Pasta",
+      "category": "Pasta Dishes",
+      "subCategory": "4. Spaghetti Pasta",
+      "description": "Boiled egg, beef, sausage, chicken, prawns & full turkey wing",
+      "sizes": {
+        "regular": 23000,
+        "jumbo": 46000
+      }
+    },
+    {
+      "id": "native-rice-1-fried-special-and-native-rice",
+      "name": "Native Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Local seasoning blend topped with spicy peppered beef",
+      "sizes": {
+        "regular": 13500,
+        "jumbo": 27000
+      }
+    },
+    {
+      "id": "dorathy-special-1-fried-special-and-native-rice",
+      "name": "Dorathy Special",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Basmati rice tossed with diced chicken, beef strips and shrimp",
+      "sizes": {
+        "regular": 15500,
+        "jumbo": 31000
+      }
+    },
+    {
+      "id": "loaded-native-rice-1-fried-special-and-native-rice",
+      "name": "Loaded Native Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Local rice tossed with mixed intestine, shrimp and boiled eggs",
+      "sizes": {
+        "regular": 15500,
+        "jumbo": 31000
+      }
+    },
+    {
+      "id": "nigerian-fried-rice-combo-1-fried-special-and-native-rice",
+      "name": "Nigerian Fried Rice Combo",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Stir-fry fried rice with liver & veggies, chicken lap, beef & coleslaw",
+      "sizes": {
+        "regular": 15500,
+        "jumbo": 31000
+      }
+    },
+    {
+      "id": "village-rice-1-fried-special-and-native-rice",
+      "name": "Village Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Assorted meat and snails prepared with steamed palm oil sauce mix",
+      "sizes": {
+        "regular": 16500,
+        "jumbo": 33000
+      }
+    },
+    {
+      "id": "seafood-rice-1-fried-special-and-native-rice",
+      "name": "Seafood Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Stir-fry rice garnished with prawns, calamari, shrimps and crab",
+      "sizes": {
+        "regular": 19500,
+        "jumbo": 39000
+      }
+    },
+    {
+      "id": "native-seafood-rice-1-fried-special-and-native-rice",
+      "name": "Native Seafood Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Native jollof rice prepared with crab, snail, prawns & croaker fish",
+      "sizes": {
+        "regular": 21500,
+        "jumbo": 43000
+      }
+    },
+    {
+      "id": "assorted-rice-1-fried-special-and-native-rice",
+      "name": "Assorted Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Stir-fry Basmati rice loaded with fried egg, chicken, prawns & sausage",
+      "sizes": {
+        "regular": 23000,
+        "jumbo": 46000
+      }
+    },
+    {
+      "id": "asun-assorted-rice-1-fried-special-and-native-rice",
+      "name": "Asun Assorted Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Stir-fry rice made with sautéed shrimps, spicy Asun and sausage",
+      "sizes": {
+        "regular": 23000,
+        "jumbo": 46000
+      }
+    },
+    {
+      "id": "oriental-rice-1-fried-special-and-native-rice",
+      "name": "Oriental Rice",
+      "category": "Rice Dishes",
+      "subCategory": "1. Fried, Special & Native Rice",
+      "description": "Basmati rice stir-fried with chunky beef, jumbo prawns and snail",
+      "sizes": {
+        "regular": 26000,
+        "jumbo": 52000
+      }
+    },
+    {
+      "id": "with-beef-2-nigerian-spicy-jollof-rice-and-plantain",
+      "name": "With Beef",
+      "category": "Rice Dishes",
+      "subCategory": "2. Nigerian Spicy Jollof Rice & Plantain",
+      "description": "₦14,500",
+      "sizes": {
+        "regular": 14500,
+        "jumbo": 29000
+      }
+    },
+    {
+      "id": "with-chicken-2-nigerian-spicy-jollof-rice-and-plantain",
+      "name": "With Chicken",
+      "category": "Rice Dishes",
+      "subCategory": "2. Nigerian Spicy Jollof Rice & Plantain",
+      "description": "₦14,500",
+      "sizes": {
+        "regular": 14500,
+        "jumbo": 29000
+      }
+    },
+    {
+      "id": "with-asun-2-nigerian-spicy-jollof-rice-and-plantain",
+      "name": "With Asun",
+      "category": "Rice Dishes",
+      "subCategory": "2. Nigerian Spicy Jollof Rice & Plantain",
+      "description": "₦15,000",
+      "sizes": {
+        "regular": 15000,
+        "jumbo": 30000
+      }
+    },
+    {
+      "id": "with-goat-meat-2-nigerian-spicy-jollof-rice-and-plantain",
+      "name": "With Goat Meat",
+      "category": "Rice Dishes",
+      "subCategory": "2. Nigerian Spicy Jollof Rice & Plantain",
+      "description": "₦15,000",
+      "sizes": {
+        "regular": 15000,
+        "jumbo": 30000
+      }
+    },
+    {
+      "id": "with-turkey-2-nigerian-spicy-jollof-rice-and-plantain",
+      "name": "With Turkey",
+      "category": "Rice Dishes",
+      "subCategory": "2. Nigerian Spicy Jollof Rice & Plantain",
+      "description": "₦17,000",
+      "sizes": {
+        "regular": 17000,
+        "jumbo": 34000
+      }
+    },
+    {
+      "id": "with-steak-2-nigerian-spicy-jollof-rice-and-plantain",
+      "name": "With Steak",
+      "category": "Rice Dishes",
+      "subCategory": "2. Nigerian Spicy Jollof Rice & Plantain",
+      "description": "₦18,500",
+      "sizes": {
+        "regular": 18500,
+        "jumbo": 37000
+      }
+    },
+    {
+      "id": "with-kebab-2-nigerian-spicy-jollof-rice-and-plantain",
+      "name": "With Kebab",
+      "category": "Rice Dishes",
+      "subCategory": "2. Nigerian Spicy Jollof Rice & Plantain",
+      "description": "₦19,000",
+      "sizes": {
+        "regular": 19000,
+        "jumbo": 38000
+      }
+    },
+    {
+      "id": "with-chicken-3-nirvana-special-basmati-rice",
+      "name": "With Chicken",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦15,500",
+      "sizes": {
+        "regular": 15500,
+        "jumbo": 31000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "with-goat-meat-3-nirvana-special-basmati-rice",
+      "name": "With Goat Meat",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦16,500",
+      "sizes": {
+        "regular": 16500,
+        "jumbo": 33000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "with-asun-asun-fried-rice-3-nirvana-special-basmati-rice",
+      "name": "With Asun (Asun Fried Rice)",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦16,500",
+      "sizes": {
+        "regular": 16500,
+        "jumbo": 33000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "with-beef-spicy-beef-rice-3-nirvana-special-basmati-rice",
+      "name": "With Beef (Spicy Beef Rice)",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦17,000",
+      "sizes": {
+        "regular": 17000,
+        "jumbo": 34000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "with-turkey-3-nirvana-special-basmati-rice",
+      "name": "With Turkey",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦17,000",
+      "sizes": {
+        "regular": 17000,
+        "jumbo": 34000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "with-prawns-3-nirvana-special-basmati-rice",
+      "name": "With Prawns",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦20,000",
+      "sizes": {
+        "regular": 20000,
+        "jumbo": 40000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "with-steak-3-nirvana-special-basmati-rice",
+      "name": "With Steak",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦20,000",
+      "sizes": {
+        "regular": 20000,
+        "jumbo": 40000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "meaty-ragu-nirvana-special-3-nirvana-special-basmati-rice",
+      "name": "Meaty Ragu Nirvana Special",
+      "category": "Rice Dishes",
+      "subCategory": "3. Nirvana Special Basmati Rice",
+      "description": "₦23,500",
+      "sizes": {
+        "regular": 23500,
+        "jumbo": 47000
+      },
+      "note": "Basmati rice loaded with minced meat, boiled egg, sausage and shrimps, served with ripe fried plantain."
+    },
+    {
+      "id": "fried-stew-without-protein-sauces",
+      "name": "Fried Stew (Without Protein)",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦5,500",
+      "sizes": {
+        "regular": 5500,
+        "jumbo": 11000
+      }
+    },
+    {
+      "id": "palm-oil-stew-without-protein-sauces",
+      "name": "Palm Oil Stew (Without Protein)",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦5,500",
+      "sizes": {
+        "regular": 5500,
+        "jumbo": 11000
+      }
+    },
+    {
+      "id": "egg-sauce-sauces",
+      "name": "Egg Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦6,500",
+      "sizes": {
+        "regular": 6500,
+        "jumbo": 13000
+      }
+    },
+    {
+      "id": "minced-meat-sauce-sauces",
+      "name": "Minced Meat Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦7,500",
+      "sizes": {
+        "regular": 7500,
+        "jumbo": 15000
+      }
+    },
+    {
+      "id": "gizzard-sauce-sauces",
+      "name": "Gizzard Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦7,500",
+      "sizes": {
+        "regular": 7500,
+        "jumbo": 15000
+      }
+    },
+    {
+      "id": "beef-sauce-sauces",
+      "name": "Beef Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦8,000",
+      "sizes": {
+        "regular": 8000,
+        "jumbo": 16000
+      }
+    },
+    {
+      "id": "asun-sauce-sauces",
+      "name": "Asun Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦8,500",
+      "sizes": {
+        "regular": 8500,
+        "jumbo": 17000
+      }
+    },
+    {
+      "id": "chicken-sauce-sauces",
+      "name": "Chicken Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦8,500",
+      "sizes": {
+        "regular": 8500,
+        "jumbo": 17000
+      }
+    },
+    {
+      "id": "gizdodo-sauce-sauces",
+      "name": "Gizdodo Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦8,500",
+      "sizes": {
+        "regular": 8500,
+        "jumbo": 17000
+      }
+    },
+    {
+      "id": "ofada-sauce-sauces",
+      "name": "Ofada Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦9,500",
+      "sizes": {
+        "regular": 9500,
+        "jumbo": 19000
+      }
+    },
+    {
+      "id": "shrimps-sauce-sauces",
+      "name": "Shrimps Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦9,500",
+      "sizes": {
+        "regular": 9500,
+        "jumbo": 19000
+      }
+    },
+    {
+      "id": "meatballs-sauce-sauces",
+      "name": "Meatballs Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦9,500",
+      "sizes": {
+        "regular": 9500,
+        "jumbo": 19000
+      }
+    },
+    {
+      "id": "mixed-beef-and-chicken-sauce-sauces",
+      "name": "Mixed (Beef & Chicken) Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦10,000",
+      "sizes": {
+        "regular": 10000,
+        "jumbo": 20000
+      }
+    },
+    {
+      "id": "shrimps-and-gizzard-sauce-sauces",
+      "name": "Shrimps & Gizzard Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦10,000",
+      "sizes": {
+        "regular": 10000,
+        "jumbo": 20000
+      }
+    },
+    {
+      "id": "fish-sauce-sauces",
+      "name": "Fish Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦10,000",
+      "sizes": {
+        "regular": 10000,
+        "jumbo": 20000
+      }
+    },
+    {
+      "id": "premium-egg-sauce-sauces",
+      "name": "Premium Egg Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦10,500",
+      "sizes": {
+        "regular": 10500,
+        "jumbo": 21000
+      }
+    },
+    {
+      "id": "shrimps-veggies-sauce-sauces",
+      "name": "Shrimps Veggies Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦12,000",
+      "sizes": {
+        "regular": 12000,
+        "jumbo": 24000
+      }
+    },
+    {
+      "id": "rough-blended-native-sauce-sauces",
+      "name": "Rough Blended Native Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦13,000",
+      "sizes": {
+        "regular": 13000,
+        "jumbo": 26000
+      }
+    },
+    {
+      "id": "snail-sauce-sauces",
+      "name": "Snail Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦13,000",
+      "sizes": {
+        "regular": 13000,
+        "jumbo": 26000
+      }
+    },
+    {
+      "id": "catfish-sauce-sauces",
+      "name": "Catfish Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦13,500",
+      "sizes": {
+        "regular": 13500,
+        "jumbo": 27000
+      }
+    },
+    {
+      "id": "native-assorted-sauce-sauces",
+      "name": "Native Assorted Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦15,500",
+      "sizes": {
+        "regular": 15500,
+        "jumbo": 31000
+      }
+    },
+    {
+      "id": "prawn-sauce-sauces",
+      "name": "Prawn Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦16,000",
+      "sizes": {
+        "regular": 16000,
+        "jumbo": 32000
+      }
+    },
+    {
+      "id": "turkey-sauce-sauces",
+      "name": "Turkey Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦16,500",
+      "sizes": {
+        "regular": 16500,
+        "jumbo": 33000
+      }
+    },
+    {
+      "id": "vegetable-turkey-sauce-sauces",
+      "name": "Vegetable Turkey Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦17,500",
+      "sizes": {
+        "regular": 17500,
+        "jumbo": 35000
+      }
+    },
+    {
+      "id": "vegetable-chicken-sauce-sauces",
+      "name": "Vegetable Chicken Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦19,500",
+      "sizes": {
+        "regular": 19500,
+        "jumbo": 39000
+      }
+    },
+    {
+      "id": "seafood-sauce-sauces",
+      "name": "Seafood Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦20,000",
+      "sizes": {
+        "regular": 20000,
+        "jumbo": 40000
+      }
+    },
+    {
+      "id": "prawns-vegetable-sauce-sauces",
+      "name": "Prawns Vegetable Sauce",
+      "category": "Sauces",
+      "subCategory": null,
+      "description": "₦23,000",
+      "sizes": {
+        "regular": 23000,
+        "jumbo": 46000
+      }
+    },
+    {
+      "id": "fried-yam-sides",
+      "name": "Fried Yam",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦2,000",
+      "sizes": {
+        "regular": 2000,
+        "jumbo": 4000
+      }
+    },
+    {
+      "id": "plain-beans-sides",
+      "name": "Plain Beans",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦2,000",
+      "sizes": {
+        "regular": 2000,
+        "jumbo": 4000
+      }
+    },
+    {
+      "id": "french-fries-sides",
+      "name": "French Fries",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦2,000",
+      "sizes": {
+        "regular": 2000,
+        "jumbo": 4000
+      }
+    },
+    {
+      "id": "fried-plantain-sides",
+      "name": "Fried Plantain",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦2,500",
+      "sizes": {
+        "regular": 2500,
+        "jumbo": 5000
+      }
+    },
+    {
+      "id": "boiled-yam-sides",
+      "name": "Boiled Yam",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦2,500",
+      "sizes": {
+        "regular": 2500,
+        "jumbo": 5000
+      }
+    },
+    {
+      "id": "boiled-potatoes-sides",
+      "name": "Boiled Potatoes",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦2,500",
+      "sizes": {
+        "regular": 2500,
+        "jumbo": 5000
+      }
+    },
+    {
+      "id": "plain-pasta-sides",
+      "name": "Plain Pasta",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦3,000",
+      "sizes": {
+        "regular": 3000,
+        "jumbo": 6000
+      }
+    },
+    {
+      "id": "steamed-local-rice-sides",
+      "name": "Steamed Local Rice",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦3,000",
+      "sizes": {
+        "regular": 3000,
+        "jumbo": 6000
+      }
+    },
+    {
+      "id": "steamed-basmati-rice-sides",
+      "name": "Steamed Basmati Rice",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦3,500",
+      "sizes": {
+        "regular": 3500,
+        "jumbo": 7000
+      }
+    },
+    {
+      "id": "rice-and-beans-sides",
+      "name": "Rice & Beans",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦3,500",
+      "sizes": {
+        "regular": 3500,
+        "jumbo": 7000
+      }
+    },
+    {
+      "id": "boiled-plantain-sides",
+      "name": "Boiled Plantain",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦3,500",
+      "sizes": {
+        "regular": 3500,
+        "jumbo": 7000
+      }
+    },
+    {
+      "id": "dirty-rice-sides",
+      "name": "Dirty Rice",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦4,000",
+      "sizes": {
+        "regular": 4000,
+        "jumbo": 8000
+      }
+    },
+    {
+      "id": "dirty-pasta-sides",
+      "name": "Dirty Pasta",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦4,000",
+      "sizes": {
+        "regular": 4000,
+        "jumbo": 8000
+      }
+    },
+    {
+      "id": "egg-and-minced-meat-rice-sides",
+      "name": "Egg & Minced Meat Rice",
+      "category": "Sides",
+      "subCategory": null,
+      "description": "₦4,500",
+      "sizes": {
+        "regular": 4500,
+        "jumbo": 9000
+      }
+    },
+    {
+      "id": "porridge-beans-meal-nirvana-locals",
+      "name": "Porridge Beans Meal",
+      "category": "Nirvana Locals",
+      "subCategory": null,
+      "description": "Slow-cooked honey beans paired with fried Titus fish, fried plantain & fried yam",
+      "price": 12500
+    },
+    {
+      "id": "ofada-rice-and-ofada-sauce-x-plantain-nirvana-locals",
+      "name": "Ofada Rice & Ofada Sauce x Plantain",
+      "category": "Nirvana Locals",
+      "subCategory": null,
+      "description": "Traditional fermented ofada rice served with native assorted meat sauce, boiled egg & ripe plantain",
+      "price": 12500
+    },
+    {
+      "id": "assorted-meat-pepper-soup-pepper-soups",
+      "name": "Assorted Meat Pepper Soup",
+      "category": "Pepper Soups",
+      "subCategory": null,
+      "description": "₦12,500",
+      "sizes": {
+        "regular": 12500,
+        "jumbo": 25000
+      },
+      "note": "Served with your choice of Boiled Plantain, Boiled Yam, or White Rice."
+    },
+    {
+      "id": "goat-meat-pepper-soup-pepper-soups",
+      "name": "Goat Meat Pepper Soup",
+      "category": "Pepper Soups",
+      "subCategory": null,
+      "description": "₦12,500",
+      "sizes": {
+        "regular": 12500,
+        "jumbo": 25000
+      },
+      "note": "Served with your choice of Boiled Plantain, Boiled Yam, or White Rice."
+    },
+    {
+      "id": "chicken-pepper-soup-pepper-soups",
+      "name": "Chicken Pepper Soup",
+      "category": "Pepper Soups",
+      "subCategory": null,
+      "description": "₦13,000",
+      "sizes": {
+        "regular": 13000,
+        "jumbo": 26000
+      },
+      "note": "Served with your choice of Boiled Plantain, Boiled Yam, or White Rice."
+    },
+    {
+      "id": "turkey-pepper-soup-pepper-soups",
+      "name": "Turkey Pepper Soup",
+      "category": "Pepper Soups",
+      "subCategory": null,
+      "description": "₦16,000",
+      "sizes": {
+        "regular": 16000,
+        "jumbo": 32000
+      },
+      "note": "Served with your choice of Boiled Plantain, Boiled Yam, or White Rice."
+    },
+    {
+      "id": "oxtail-pepper-soup-pepper-soups",
+      "name": "Oxtail Pepper Soup",
+      "category": "Pepper Soups",
+      "subCategory": null,
+      "description": "₦16,000",
+      "sizes": {
+        "regular": 16000,
+        "jumbo": 32000
+      },
+      "note": "Served with your choice of Boiled Plantain, Boiled Yam, or White Rice."
+    },
+    {
+      "id": "catfish-pepper-soup-pepper-soups",
+      "name": "Catfish Pepper Soup",
+      "category": "Pepper Soups",
+      "subCategory": null,
+      "description": "₦16,000",
+      "sizes": {
+        "regular": 16000,
+        "jumbo": 32000
+      },
+      "note": "Served with your choice of Boiled Plantain, Boiled Yam, or White Rice."
+    },
+    {
+      "id": "chicken-shawarma-shawarma-and-quick-bites",
+      "name": "Chicken Shawarma",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Classic shredded spiced chicken with sausage",
+      "price": 7500,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "beef-shawarma-shawarma-and-quick-bites",
+      "name": "Beef Shawarma",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Seasoned shredded beef with sausage",
+      "price": 7500,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "asun-shawarma-shawarma-and-quick-bites",
+      "name": "Asun Shawarma",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Spicy smoked peppered goat meat with sausage",
+      "price": 8500,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "mixed-shawarma-beef-and-chicken-shawarma-and-quick-bites",
+      "name": "Mixed Shawarma (Beef & Chicken)",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Blend of chicken and beef with sausage",
+      "price": 8500,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "shrimps-shawarma-shawarma-and-quick-bites",
+      "name": "Shrimps Shawarma",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Plump sautéed seasoned shrimps with sausage",
+      "price": 9500,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "turkey-shawarma-shawarma-and-quick-bites",
+      "name": "Turkey Shawarma",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Chopped seasoned turkey breast/meat with sausage",
+      "price": 10000,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "mixed-shawarma-turkey-and-asun-shawarma-and-quick-bites",
+      "name": "Mixed Shawarma (Turkey & Asun)",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Premium duo of spicy Asun and shredded turkey",
+      "price": 10500,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "add-on-extra-cheese-shawarma-and-quick-bites",
+      "name": "*Add-on:* Extra Cheese",
+      "category": "Shawarma & Quick Bites",
+      "subCategory": null,
+      "description": "Added to any wrap",
+      "price": 2000,
+      "note": "All shawarmas include sausage inside."
+    },
+    {
+      "id": "coleslaw-salads",
+      "name": "Coleslaw",
+      "category": "Salads",
+      "subCategory": null,
+      "description": "Shredded cabbage and carrots in creamy salad dressing",
+      "price": 3000
+    },
+    {
+      "id": "nirvana-salad-salads",
+      "name": "Nirvana Salad",
+      "category": "Salads",
+      "subCategory": null,
+      "description": "Spicy chicken chunks, shrimps, crisp lettuce, carrot, boiled eggs, cucumber, cabbage & macaroni (optional)",
+      "price": 15000
+    },
+    {
+      "id": "boiled-egg-extras-and-side-proteins",
+      "name": "Boiled Egg",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "1 Pc",
+      "price": 800
+    },
+    {
+      "id": "hot-dog-extras-and-side-proteins",
+      "name": "Hot Dog",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "1 Pc",
+      "price": 800
+    },
+    {
+      "id": "peppered-pomo-extras-and-side-proteins",
+      "name": "Peppered Pomo",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 2000
+    },
+    {
+      "id": "peppered-kpanla-extras-and-side-proteins",
+      "name": "Peppered Kpanla",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "2 Pcs",
+      "price": 2500
+    },
+    {
+      "id": "fried-eggs-extras-and-side-proteins",
+      "name": "Fried Eggs",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 3000
+    },
+    {
+      "id": "intestine-extras-and-side-proteins",
+      "name": "Intestine",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "4 Pcs",
+      "price": 3000
+    },
+    {
+      "id": "peppered-gizzard-extras-and-side-proteins",
+      "name": "Peppered Gizzard",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "4 Pcs",
+      "price": 3000
+    },
+    {
+      "id": "meatballs-extras-and-side-proteins",
+      "name": "Meatballs",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "4 Pcs",
+      "price": 3500
+    },
+    {
+      "id": "titus-fish-extras-and-side-proteins",
+      "name": "Titus Fish",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "2 Pcs",
+      "price": 4000
+    },
+    {
+      "id": "beef-extras-and-side-proteins",
+      "name": "Beef",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "3 Pcs",
+      "price": 4000
+    },
+    {
+      "id": "diced-beef-extras-and-side-proteins",
+      "name": "Diced Beef",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 4000
+    },
+    {
+      "id": "diced-chicken-extras-and-side-proteins",
+      "name": "Diced Chicken",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 4000
+    },
+    {
+      "id": "crab-extras-and-side-proteins",
+      "name": "Crab",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 4500
+    },
+    {
+      "id": "croaker-fish-extras-and-side-proteins",
+      "name": "Croaker Fish",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "1 Pc",
+      "price": 5000
+    },
+    {
+      "id": "catfish-extras-and-side-proteins",
+      "name": "Catfish",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "1 Pc",
+      "price": 5000
+    },
+    {
+      "id": "calamari-extras-and-side-proteins",
+      "name": "Calamari",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 5000
+    },
+    {
+      "id": "saut-ed-shrimps-extras-and-side-proteins",
+      "name": "Sautéed Shrimps",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 5500
+    },
+    {
+      "id": "asun-extras-and-side-proteins",
+      "name": "Asun",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 5500
+    },
+    {
+      "id": "peppered-snails-extras-and-side-proteins",
+      "name": "Peppered Snails",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "3 Pcs",
+      "price": 6500
+    },
+    {
+      "id": "chicken-wings-extras-and-side-proteins",
+      "name": "Chicken Wings",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "5 Pcs",
+      "price": 7500
+    },
+    {
+      "id": "peppered-chicken-extras-and-side-proteins",
+      "name": "Peppered Chicken",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 7500
+    },
+    {
+      "id": "crispy-chicken-extras-and-side-proteins",
+      "name": "Crispy Chicken",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "3 Pcs",
+      "price": 9000
+    },
+    {
+      "id": "peppered-bbq-turkey-wing-extras-and-side-proteins",
+      "name": "Peppered / BBQ Turkey Wing",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "1 Wing",
+      "price": 9500
+    },
+    {
+      "id": "peppered-prawns-extras-and-side-proteins",
+      "name": "Peppered Prawns",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "2 Pcs",
+      "price": 10000
+    },
+    {
+      "id": "turkey-chops-extras-and-side-proteins",
+      "name": "Turkey Chops",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 11000
+    },
+    {
+      "id": "mixed-kebab-extras-and-side-proteins",
+      "name": "Mixed Kebab",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "1 Pc",
+      "price": 11000
+    },
+    {
+      "id": "steak-extras-and-side-proteins",
+      "name": "Steak",
+      "category": "Extras & Side Proteins",
+      "subCategory": null,
+      "description": "Portion",
+      "price": 20000
+    },
+    {
+      "id": "pineapple-juice-fresh-juices-and-smoothies",
+      "name": "Pineapple Juice",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Fresh Juices & Smoothies",
+      "description": "100% freshly pressed pineapple",
+      "price": 3000
+    },
+    {
+      "id": "watermelon-juice-fresh-juices-and-smoothies",
+      "name": "Watermelon Juice",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Fresh Juices & Smoothies",
+      "description": "Refreshing chilled freshly pressed watermelon",
+      "price": 3000
+    },
+    {
+      "id": "fruit-punch-fresh-juices-and-smoothies",
+      "name": "Fruit Punch",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Fresh Juices & Smoothies",
+      "description": "Fresh mix of pineapple and watermelon juice",
+      "price": 4500
+    },
+    {
+      "id": "nirvana-smoothie-fresh-juices-and-smoothies",
+      "name": "Nirvana Smoothie",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Fresh Juices & Smoothies",
+      "description": "Thick wholesome blend of banana, watermelon, pineapple & milk",
+      "price": 7000
+    },
+    {
+      "id": "bottled-water-soft-drinks-and-water",
+      "name": "Bottled Water",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Soft Drinks & Water",
+      "description": "",
+      "price": 800
+    },
+    {
+      "id": "coke-soft-drinks-and-water",
+      "name": "Coke",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Soft Drinks & Water",
+      "description": "",
+      "price": 1000
+    },
+    {
+      "id": "fanta-soft-drinks-and-water",
+      "name": "Fanta",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Soft Drinks & Water",
+      "description": "",
+      "price": 1000
+    },
+    {
+      "id": "sprite-soft-drinks-and-water",
+      "name": "Sprite",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Soft Drinks & Water",
+      "description": "",
+      "price": 1000
+    },
+    {
+      "id": "maltina-soft-drinks-and-water",
+      "name": "Maltina",
+      "category": "Drinks, Smoothies & Milkshakes",
+      "subCategory": "Soft Drinks & Water",
+      "description": "",
+      "price": 1200
+    }
   ]
 }
